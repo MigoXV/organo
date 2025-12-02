@@ -1,6 +1,6 @@
 [project]
 name = "organo"
-version = "0.1.0"
+version = "0.1.1a1"
 description = ""
 authors = [
     {name = "migo",email = "1695587905@qq.com"}
