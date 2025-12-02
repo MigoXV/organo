@@ -23,3 +23,4 @@ class DataLoaderConfig:
     prefetch_factor: Optional[int] = None
     persistent_workers: bool = False
     pin_memory_device: str = ""
+    drop_last: bool = False
