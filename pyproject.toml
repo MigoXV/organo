@@ -8,23 +8,20 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
 dependencies = [
-"numpy==1.26.4",
-"typer>= 0.15.1",
-"pandas==2.2.3",
-"scipy==1.14.1",
-"tqdm>=4.67.0",
-"wandb (>=0.19.8,<0.20.0)",
-"phx-class-registry (==5.0.0)",
-"datasets (>=4.0.0,<5.0.0)",
-"aiohttp (>=3.12.15,<4.0.0)",
-"yarl (>=1.20.1,<2.0.0)",
-"fsspec (==2025.3.0)",
-"s3fs (==2025.3.0)",
-"lightning (==2.3.3)",
-"torch (==2.3.1)",
-"hydra-core (>=1.3.2,<2.0.0)",
-"omegaconf (>=2.3.0,<3.0.0)",
-"torchmetrics (>=1.0.0,<2.0.0)"
+    "numpy",
+    "typer",
+    "pandas",
+    "scipy",
+    "tqdm",
+    "wandb",
+    "phx-class-registry",
+    "datasets",
+    "aiohttp",
+    "yarl",
+    "fsspec",
+    "s3fs",
+    "hydra-core",
+    "omegaconf",
 ]
 
 [tool.poetry]
